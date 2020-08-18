@@ -1,0 +1,36 @@
+Hi,
+
+I wanted to clarify what I did for each part of the rubric so it's signifcantly 
+easier for you to grade the project and it's easier for me to explain what I did. 
+Hopefully I can get part marks for areas where I struggled. 
+
+The one thing I had trouble implementing was the login system. I took what I could from the lecture
+slides but I couldn't get it to work correctly. However, I still made 2 types of user accounts,
+admin and student, and both of them have different roles and abilities.
+
+Accounts:
+(id=1, password=password, userType=admin)
+(id=2, password=password, userType=student)
+
+
+RUBRIC:
+1. Responsive (2.5 marks): I used bootstrap for responsiveness across different screen sizes and used css to edit the look of things.
+
+2. Two different level of users (5 marks): 2 users, admin and student. When you are logged in as a certain type of user, your header changes,
+   giving you different options and capabilities. For admins, they have their own admin header and admin homepage. Students use header.php and admins use adminheader.php,
+   alongside with differing homepages once they are logged in. To see the different views for admin and student, look at adminhome.php and home.php.
+   I go into this in the next part below.
+   
+3. Transactions for each type of users (5 marks): I have 3 different types of transactions for Admins and Students. Admins are able to add books to the library(insert), 
+   delete user from library(deletion), and are able to change a user's account type(update). Students are able to signout books(insertion), return books(which involves
+   deletion) and change password(update).
+   
+4. Data Analysis and reporting techniques (5 marks): Under books section, I included a pie chart which shows the different genres of books in the library. Another reporting 
+   and data technique is the different types of searches. I created 5 types of searches, search by book id, by title, by author, by genre, and by year. These 5 search types
+   and the pie chart total 6 of the required reporting techniques. 
+   
+5. Some non-functional requirements (5 marks): Functions as a library website, I just couldn't get the login part correct but everything else works perfectly. 
+
+6. Creativity and originality (2.5 marks): Pretty creative and geniune lol. 
+   
+
